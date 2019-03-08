@@ -1,0 +1,45 @@
+﻿@model Estructuraslb2pr.Models.Nodo
+
+@{
+    ViewBag.Title = "Formulario";
+}
+
+<h2>Formulario</h2>
+
+@using (Html.BeginForm())
+{
+    <div>
+        @Html.LabelFor(model => Model.Id)
+        @Html.EditorFor(model => Model.Id)
+
+    </div>
+    <div>
+        @Html.LabelFor(model => Model.Nombre)
+        @Html.EditorFor(model => Model.Nombre)
+
+    </div>
+    <div>
+        @Html.LabelFor(model => Model.Descripcion)
+        @Html.EditorFor(model => Model.Descripcion)
+
+    </div>
+    <div>
+        @Html.LabelFor(model => Model.Casap)
+        @Html.EditorFor(model => Model.Casap)
+
+    </div>
+
+    <div>
+        @Html.LabelFor(model => Model.Precio)
+        @Html.EditorFor(model => Model.Precio)
+
+    </div>
+
+    <div>
+        @Html.LabelFor(model => Model.Existencia)
+        @Html.EditorFor(model => Model.Existencia)
+
+    </div>
+
+    <input type="submit" value="enviar" />
+}
