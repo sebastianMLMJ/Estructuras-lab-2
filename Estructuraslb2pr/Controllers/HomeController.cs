@@ -6,14 +6,14 @@ using System.Web;
 using System.Web.Mvc;
 using System.Collections;
 using System.ComponentModel;
+using LibreriaClaseslab2;
 
 namespace Estructuraslb2pr.Controllers
 {
    
     public class HomeController : Controller
     {
-        public static Lista<Nodo> NuevaLista = new Lista<Nodo>();
-        public static LinkedList<Nodo> Lista = new LinkedList<Nodo>();
+        
 
         // GET: Home
         [HttpGet]

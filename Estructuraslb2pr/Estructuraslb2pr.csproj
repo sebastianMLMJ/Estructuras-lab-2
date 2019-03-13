@@ -111,8 +111,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Lista.cs" />
-    <Compile Include="Models\Nodo.cs" />
+    <Compile Include="Models\Farmacos.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -133,6 +132,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\LibreriaClaseslab2\LibreriaClaseslab2.csproj">
+      <Project>{1a9afe09-164b-4d19-bfc6-3d427466d56c}</Project>
+      <Name>LibreriaClaseslab2</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

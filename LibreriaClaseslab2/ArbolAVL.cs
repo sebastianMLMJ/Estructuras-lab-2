@@ -4,11 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LibreriaClaseslab2.Interfaces
+namespace LibreriaClaseslab2
 {
-    interface INterfaceListaEnlazada<T>
+    class ArbolAVL
     {
-        void Insertar (T Nodo);
-      
     }
 }
