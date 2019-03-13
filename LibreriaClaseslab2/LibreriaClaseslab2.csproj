@@ -40,7 +40,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArbolAVL.cs" />
     <Compile Include="ListaEnlazada.cs" />
+    <Compile Include="NodoArbol.cs" />
     <Compile Include="Nodolista.cs" />
     <Compile Include="Interfaces\INterfaceListaEnlazada.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
