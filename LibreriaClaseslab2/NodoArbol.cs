@@ -5,19 +5,26 @@ using System.Web;
 
 namespace Estructuraslb2pr
 {
-    public class NodoArbol
+    public class NodoArbol<T>
     {
+        public T Value { get; set; }
+        public NodoArbol<T> izquierda { get; set; }
+        public NodoArbol<T> derecha { get; set; }
+        public string Llave { get; set; }
+        public int Linea { get; set; }
+
+
+
         public int Id { get; set; }
         public string Nombre { get; set; }
         public int FactorEquilibrio;
 
-        public NodoArbol Izquierdo;
-        public NodoArbol Derecho;
+       
 
         public NodoArbol()
         {
-            Derecho = null;
-            Izquierdo = null;
+            derecha = null;
+            izquierda = null;
         }
 
     }
